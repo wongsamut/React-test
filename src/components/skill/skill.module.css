@@ -1,0 +1,29 @@
+/* skills_con
+skills_title
+skills_list */
+.skills_con{
+    height: 300px;
+    background-color: rgb(206, 206, 206);
+    text-align: center;
+    color: black;
+    overflow: hidden;
+
+    & .skills_title {
+        margin-top:  40px;
+    }
+    & .skills_list{
+        display: flex;
+        justify-content: center;
+        list-style: none;
+        margin-top: 70px;
+
+        & li{
+            margin: 0 20px;
+            & svg {
+                width: 60px;
+                height: 60px;
+            }
+        }
+        
+    }
+}
